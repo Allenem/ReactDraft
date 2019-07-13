@@ -159,6 +159,8 @@ store下的`constants.js`存常量
 
 ## 三、运行截图
 
+### Home
+
 ![homepage](../jianshu/img/home.png)
 
 ### Footer & More
