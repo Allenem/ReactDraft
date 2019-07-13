@@ -8,7 +8,6 @@ export const HeaderWrapper = styled.div `
   margin: 0;
   height: 56px;
   border-bottom: 1px solid #f0f0f0;
-}
 `
 
 export const HeaderFixed = styled.div `
@@ -17,7 +16,6 @@ export const HeaderFixed = styled.div `
   height: 56px;
   width: 100%;
   background: #fff;
-}
 `
 
 export const WidthLimit = styled.div `

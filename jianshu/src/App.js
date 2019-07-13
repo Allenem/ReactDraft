@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'; //store
 import { BrowserRouter, Route } from 'react-router-dom'; //Route
 
 import Header from './common/header';
+import Footer from './common/footer';
 import Home from './pages/home'
 import Detail from './pages/detail/loadable.js'
 import Login from './pages/login'
@@ -27,6 +28,8 @@ class App extends Component {
           <Route path='/write' exact component={Write}></Route>
           <Route path='/detail/:id' exact component={Detail}></Route>{/* 第1种：/detail/idname */}
           {/* <Route path='/detail' exact component={Detail}></Route> */}{/* 第2种：/detail?id=idname */}
+        
+          <Footer/>
         </BrowserRouter>
       </Provider>
     );
